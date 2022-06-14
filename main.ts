@@ -137,6 +137,7 @@ mySprite = sprites.create(img`
     ........................
     ........................
     `, SpriteKind.Player)
+mySprite.x += -40
 controller.moveSprite(mySprite)
 tiles.setCurrentTilemap(tilemap`level1`)
 scene.cameraFollowSprite(mySprite)
